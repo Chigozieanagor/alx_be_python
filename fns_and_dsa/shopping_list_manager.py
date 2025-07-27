@@ -10,7 +10,7 @@ def main():
         display_menu()
         choice = int(input("Enter your choice: "))
         if choice == 1:
-            add = input("Enter the item to add: (shoe, bags, phone): ")
+            add = input("Enter the item to add: ")
             shopping_list.append(add)
             #print(shopping_list)
         elif choice == 2:
