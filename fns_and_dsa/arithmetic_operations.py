@@ -10,7 +10,7 @@ def perform_operation(num1, num2, operation):
             if num2 == 0:
                 print("chose a none zero number")
                 
-            else:
+            elif num2 >= 1:
                 return num1 / num2       
         case _:
             print()
