@@ -1,4 +1,4 @@
-monthly_income = int(input("Enter you monthly income: "))
+monthly_income = int(input("Enter your monthly income: "))
 monthly_expenses = int(input("Enter your monthly expenses: "))
 monthly_savings = monthly_income - monthly_expenses
 fgmonthly_savings = f"${monthly_savings:,.0f}."
